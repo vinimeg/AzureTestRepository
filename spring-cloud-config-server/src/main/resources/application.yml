@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/vinimeg/GitEnvYmlReposotory
+      username: vinay
+      password: vinnay
+       
+    
+server:
+  port: 8888
+  
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+  
+

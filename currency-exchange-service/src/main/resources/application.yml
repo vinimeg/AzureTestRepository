@@ -1,0 +1,12 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: currency-application
+    
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
+    
+    

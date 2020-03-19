@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: limit-application
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+  profiles:
+    active:
+    - sit
+
+server:
+  port: 8080
+  
+#currency-application.ribbon.listOfServers: http://localhost:8000,http://localhost:8001,http://localhost:8003
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+      
+

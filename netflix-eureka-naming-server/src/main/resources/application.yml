@@ -1,0 +1,16 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: netflix-eureka-naming-server
+  profiles:
+    active:
+    - sit
+    
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+    

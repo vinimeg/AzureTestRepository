@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "environament",
+    "type": "java.lang.String",
+    "description": "A description for 'environament'"
+  },
+  {
+    "name": "currency-application.ribbon.list-of-servers",
+    "type": "java.lang.String",
+    "description": "A description for 'currency-application.ribbon.list-of-servers'"
+  }
+]}
